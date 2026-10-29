@@ -59,7 +59,7 @@
   {
     "ticketId": "CLAIM-1647",
     "title": "Epi.Ocr: Multiple Emails from fax-2989978@reply.fax2mail.com Combining into One Incoming Document File",
-    "status": "Development",
+    "status": "Done",
     "sprint": "2026-Oct-19",
     "assignee": "Bilal",
     "notes": ""
