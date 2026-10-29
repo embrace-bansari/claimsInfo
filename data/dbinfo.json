@@ -1,7 +1,42 @@
 [
-  {"application":"CRM / Claims Workspace / WWF / Apollo / InRule", "dbType":"SQL Server (On-Prem)", "auth":"Windows Authentication", "dev":"DEV-SQL", "rc":"", "prod":"beast"},
-  {"application":"DocumentStorage", "dbType":"SQL Server (On-Prem)", "auth":"SQL Server Authentication", "dev":"DEV-SQL", "rc":"", "prod":""},
-  {"application":"Claim API (Embrace DB)", "dbType":"Azure SQL Database", "auth":"Azure AD / MFA", "dev":"", "rc":"", "prod":""},
-  {"application":"Athena (Status Tracker)", "dbType":"Cosmos DB", "auth":"Azure AD / MFA", "dev":"", "rc":"", "prod":""},
-  {"application":"Atlas (Email Processing)", "dbType":"Cosmos DB", "auth":"Azure AD / MFA", "dev":"", "rc":"", "prod":""}
+  {
+    "application": "CRM / Claims Workspace / WWF / Apollo / InRule",
+    "dbType": "SQL Server (On-Prem)",
+    "auth": "Windows Authentication",
+    "dev": "crmsql-dev",
+    "rc": "crmsql-rc",
+    "prod": ""
+  },
+  {
+    "application": "DocumentStorage",
+    "dbType": "SQL Server (On-Prem)",
+    "auth": "SQL Server Authentication",
+    "dev": "DEV-SQL",
+    "rc": "",
+    "prod": ""
+  },
+  {
+    "application": "Claim API (Embrace DB)",
+    "dbType": "Azure SQL Database",
+    "auth": "Azure AD / MFA",
+    "dev": "",
+    "rc": "",
+    "prod": ""
+  },
+  {
+    "application": "Athena (Status Tracker)",
+    "dbType": "Cosmos DB",
+    "auth": "Azure AD / MFA",
+    "dev": "",
+    "rc": "",
+    "prod": ""
+  },
+  {
+    "application": "Atlas (Email Processing)",
+    "dbType": "Cosmos DB",
+    "auth": "Azure AD / MFA",
+    "dev": "",
+    "rc": "",
+    "prod": ""
+  }
 ]
